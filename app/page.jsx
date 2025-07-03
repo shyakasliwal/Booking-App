@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic'; // Forcing SSR and Node.js runtime
+export const runtime = 'nodejs'; // Make sure you're not using edge runtime
+
 import RoomCard from '@/components/RoomCard';
 import Heading from '@/components/Heading';
 import getAllRooms from './actions/getAllRooms';
